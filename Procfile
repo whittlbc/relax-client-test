@@ -1,0 +1,1 @@
+relax: bundle exec rake relax:listen_for_events

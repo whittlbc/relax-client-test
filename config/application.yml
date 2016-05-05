@@ -1,0 +1,5 @@
+REDIS_URL: 'redis://h:p52p12h8j5ut6q4reeff28phg5b@ec2-54-83-202-143.compute-1.amazonaws.com:13229'
+RELAX_BOTS_KEY: 'reflektive_relax_bots_key'
+RELAX_BOTS_PUBSUB: 'reflektive_relax_bots_pubsub'
+RELAX_EVENTS_QUEUE: 'reflektive_relax_events_queue'
+RELAX_MUTEX_KEY: 'reflektive_relax_mutex_key'
