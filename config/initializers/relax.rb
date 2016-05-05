@@ -1,3 +1,6 @@
-Relax::EventListener.callback = Proc.new do |e|
-  puts "Received Relax Event: #{e}"
+callback = Proc.new do |event|
+  Rails.logger.info "received event: #{event}"
+  # handle event
 end
+
+Relax::EventListener.callback = callback
